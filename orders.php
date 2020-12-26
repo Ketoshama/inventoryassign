@@ -175,7 +175,7 @@ if($_GET['o'] == 'add') {
 				    </div>
 				  </div> <!--/form-group-->	
 				  <div class="form-group">
-				    <label for="vat" class="col-sm-3 control-label gst">GST 18%</label>
+				    <label for="vat" class="col-sm-3 control-label gst">GST 15%</label>
 				    <div class="col-sm-9">
 				      <input type="text" class="form-control" id="vat" name="gstn" readonly="true" />
 				      <input type="hidden" class="form-control" id="vatValue" name="vatValue" />

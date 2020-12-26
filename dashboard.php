@@ -113,13 +113,13 @@ $connect->close();
 	<?php  if(isset($_SESSION['userId']) && $_SESSION['userId']==1) { ?>
 	<div class="col-md-8">
 		<div class="panel panel-default">
-			<div class="panel-heading"> <i class="glyphicon glyphicon-calendar"></i> User Wise Order</div>
+			<div class="panel-heading"> <i class="glyphicon glyphicon-calendar"></i> Orders</div>
 			<div class="panel-body">
 				<table class="table" id="productTable">
 			  	<thead>
 			  		<tr>			  			
 			  			<th style="width:40%;">Name</th>
-			  			<th style="width:20%;">Orders in Rupees</th>
+			  			<th style="width:20%;">Orders in JMD</th>
 			  		</tr>
 			  	</thead>
 			  	<tbody>
